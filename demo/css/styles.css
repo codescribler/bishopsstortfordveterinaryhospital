@@ -921,7 +921,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 }
 
 @media (max-width: 768px) {
-    .nav-toggle { display: flex; }
+    .nav-toggle { display: flex; margin-left: auto; }
     .main-nav, .nav-actions { display: none; }
     .nav-emergency-link .nav-emergency-text { display: none; }
     .logo { height: 32px; }
@@ -957,7 +957,7 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 }
 
 @media (max-width: 480px) {
-    .logo-text { display: none; }
+    .logo-text { font-size: .55rem; }
     .paw-print--2 { display: none; }
     .hero-headline { font-size: clamp(2rem, 8vw, 2.75rem); }
     .hero-ctas { flex-direction: column; width: 100%; }
