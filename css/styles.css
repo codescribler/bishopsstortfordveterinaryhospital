@@ -980,3 +980,10 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
     .ambient-blob { animation: none; }
     .paw-print { display: none; }
 }
+/* ---- LAPTOP SCREEN OPTIMISATION (DRE-17) ---- */
+/* Targets 769px–1440px: standard laptop & notebook screens */
+@media (min-width: 769px) and (max-width: 1440px) {
+  .hero { min-height: min(78dvh, 700px); }
+  .section { padding: clamp(3.5rem, 5vw, 5.5rem) 0; }
+  .section-pad-xl { padding: clamp(4rem, 6vw, 6.5rem) 0; }
+}
